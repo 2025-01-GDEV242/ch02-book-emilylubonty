@@ -53,4 +53,11 @@ class Book
         return pages; 
     }
     
+    // 2.87
+    public void printDetails()
+    {
+        System.out.println("Author: " + author); 
+        System.out.println("Title:" + title); 
+        System.out.println("Pages:" + pages); 
+    }
 }
