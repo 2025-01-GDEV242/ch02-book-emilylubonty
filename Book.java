@@ -64,17 +64,28 @@ class Book
         
         // 2.89
         int stringNumber = refNumber.length(); 
-        if (stringNumber > 1)
+        if (stringNumber > 1){
             System.out.println("Reference Number: " + refNumber);
-        else 
+            }
+        else {
             System.out.println("ZZZ");
+        }
         
     }
     
     // 2.88
     public void setRefNumber(String ref)
     {
-         refNumber = ref; 
+         // 2.90
+        if (ref.length() >= 3){
+             refNumber = ref; 
+            }
+        else {
+            System.out.println("That is not a valid reference number.");
+            System.out.println("Enter a 3 character reference number."); 
+        }
+            
+             
     }
     
     public String getRefNumber()
