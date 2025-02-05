@@ -59,8 +59,16 @@ class Book
     public void printDetails()
     {
         System.out.println("Author: " + author); 
-        System.out.println("Title:" + title); 
-        System.out.println("Pages:" + pages);  
+        System.out.println("Title: " + title); 
+        System.out.println("Pages: " + pages);
+        
+        // 2.89
+        int stringNumber = refNumber.length(); 
+        if (stringNumber > 1)
+            System.out.println("Reference Number: " + refNumber);
+        else 
+            System.out.println("ZZZ");
+        
     }
     
     // 2.88
