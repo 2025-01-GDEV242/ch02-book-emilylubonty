@@ -1,8 +1,8 @@
 /**
- * A class that maintains information on a book.
- * This might form part of a larger application such
- * as a library system, for instance.
  *
+ * This class keeps information regarding a book's content 
+ * and categorization details. 
+ * 
  * @author Emily Lubonty
  * @version 2/3/2025
  */
