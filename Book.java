@@ -31,35 +31,53 @@ class Book
     }
 
     // 2.83
+    /** 
+     * This method gets the book author.
+     */
     public String getbookAuthor()
     {
         return author;
     }
     
+    /**
+     * This method gets the book title.
+     */
     public String getbookTitle()
     {
         return title; 
     }
     
     // 2.84 
-    
+    /** 
+     * This method prints the author's name.
+     */
     public void printAuthor()
     {
         System.out.println(author); 
     }
     
+    /**
+     * This method prints the book's title.
+     */
     public void printTitle()
     {
         System.out.println(title); 
     }
     
     // 2.85
+    /**
+     * This method gets the amount of pages in the book.
+     */
     public int getbookPages()
     {
         return pages; 
     }
     
     // 2.87
+    /**
+     * This method prints the details of the book including the 
+     * amount of times it has been borrowed.
+     */
     public void printDetails()
     {
         System.out.println("Author: " + author); 
@@ -84,6 +102,10 @@ class Book
     }
     
     // 2.88
+    /**
+     * This method sets a reference number for the book. If the 
+     * length is less than 3 characters, an error message occurs. 
+     */
     public void setRefNumber(String ref)
     {
          // 2.90
@@ -98,23 +120,38 @@ class Book
              
     }
     
+    /**
+     * This method returns the reference number. 
+     */
     public String getRefNumber()
     {
         return refNumber; 
     }
     
     // 2.91 
+    /**
+     * This method determines how many times the book has been borrowed.
+     */
     public void setBorrowed(int borrow)
     {
        borrowed = borrow; 
     }
-        
+    
+    /**
+     * This method returns how many times the book has been 
+     * borrowed and increments the count by 1 each time it is 
+     * called. 
+     */
     public int getBorrowed()
     {
         return borrowed++;
     }
     
     // 2.92 
+    /** 
+     * This method determines if the book is being
+     * used as a course textbook.
+     */
     public boolean isCourseText()
     {
         return courseText; 
